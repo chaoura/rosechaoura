@@ -1,3 +1,4 @@
+
 package com.gildedrose;
 
 public class TexttestFixture {
@@ -5,7 +6,10 @@ public class TexttestFixture {
         System.out.println("OMGHAI!");
 
         Item[] items = new Item[] {
-                new Item("+5 Dexterity Vest", 10, 20), //
+                new Item("+5 Dexterity Vest", 10, 20), //               
+                new Item("Conjured", 10, 20),
+                new Item("+5 Dexterity Vest", -10, 20),
+                new Item("Conjured", -10, 20),
                 new Item("Aged Brie", 2, 0), //
                 new Item("Elixir of the Mongoose", 5, 7), //
                 new Item("Sulfuras, Hand of Ragnaros", 0, 80), //
